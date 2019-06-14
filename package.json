@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "Taskbook CLI data cleaner",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "tbcleaner": "index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "akgun",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
 }

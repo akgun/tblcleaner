@@ -1,0 +1,16 @@
+{
+    "1": {
+        "_id": 1,
+        "_date": "Tue Jun 11 2019",
+        "_timestamp": 1560251441152,
+        "description": "Task 1",
+        "isStarred": false,
+        "boards": [
+            "My Board"
+        ],
+        "_isTask": true,
+        "isComplete": true,
+        "inProgress": false,
+        "priority": "3"
+    }
+}
